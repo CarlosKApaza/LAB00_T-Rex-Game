@@ -3,6 +3,7 @@
 #include "Terreno.h"
 #include "Pterodactilo.h"
 #include "Cactus.h"
+#include "Nubes.h"
 
 int main() {
 	std:: cout << "\t- - - EL JUEGO DEL DINOSAURIO T-REX GAME - - -\n" << std::endl;
@@ -12,8 +13,7 @@ int main() {
 	Terreno *terreno = new Terreno();
 	Pterodactilo *pterodactilo = new Pterodactilo();
 	Cactus *cactus = new Cactus();
-
-
+	Nubes* nubes = new Nubes();
 
 	//Llamada a los metodos de la clase Dino usando el puntero al objeto creado 
 	dino->correr();
@@ -21,9 +21,7 @@ int main() {
 	pterodactilo->volar();
 	pterodactilo->atakar();
 	cactus->moverCactus();
-
-
-
+	nubes->movimientoNubes();
 
 	return 0;
 }

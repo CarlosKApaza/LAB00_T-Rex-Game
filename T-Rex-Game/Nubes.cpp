@@ -5,5 +5,5 @@ void Nubes::aparicionNubes() {
 }
 
 void Nubes::movimientoNubes() {
-	std:: cout << "Desaparece una nube en el cielo" << std::endl;
+	std:: cout << "Las nubes se mueven en el cielo" << std::endl;
 }
